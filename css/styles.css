@@ -4,7 +4,6 @@ body {
     margin: 0;
 }
 
-
 .header {
     background-color: white;
     width: 100%;
@@ -28,7 +27,6 @@ body {
 .title {
     margin-left: 120px;
 }
-
 
 .header#withBorder {
     border-bottom: 1px solid #F5F5F5;
@@ -56,7 +54,6 @@ body {
     color: #333333;
 }
 
-
 .container#menu {
     width: 100%;
     height: 100%;
@@ -74,7 +71,6 @@ body {
     }
 }
 
-
 .menu {
     background-color: white;
     width: 100%;
@@ -90,8 +86,6 @@ body {
     align-items: center;
     gap: 30px;
     width: fit-content;
-
-
 
     h1 {
         font-size: 16px;
@@ -119,13 +113,6 @@ body {
 
 }
 
-
-
-
-
-
-
-
 .list {
     font-family: "Poppins";
     font-weight: 600;
@@ -151,15 +138,11 @@ body {
         color: black;
 
     }
-
-
 }
 
 .list#compact {
     gap: 20px;
 }
-
-
 
 .mainImg {
     width: 100%;
@@ -257,11 +240,9 @@ body {
     padding-top: 18px;
 }
 
-
-
 .alwaysBeImg {
     width: 100%;
-    height: 600px;
+    height: 800px;
     background: url("./../assets/alwaysBe.png");
     background-size: cover;
     padding-top: 200px;
@@ -269,7 +250,7 @@ body {
 
 .coatsImg {
     width: 100%;
-    height: 600px;
+    height: 800px;
     background: url("./../assets/coats.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -277,7 +258,7 @@ body {
 
 .tshirtsImg {
     width: 100%;
-    height: 600px;
+    height: 800px;
     background: url("./../assets/tShirts.png");
     background-size: cover;
     background-repeat: no-repeat;

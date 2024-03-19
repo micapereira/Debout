@@ -24,56 +24,74 @@
 
 <body>
     <header>
-        <div class="topHeader">
-            <span>Envio gratis a partir de $1000</span>
-            <span>15% de Descuento con Santander <img src="./assets/santander.png" /></span>
-            <span>100% moda uruguaya</span>
-            <span> Ultimas ofertas</span>
-        </div>
-        <div class="header">
-            <a href="./pages/menu.html">
-                <div class="actions">
-                    <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M4.33325 11H17.3333V13H4.33325V11ZM4.33325 6H21.6666V8H4.33325V6ZM4.33325 18H12.1712V16H4.33325V18Z"
-                            fill="#333333" />
-                    </svg>
+        <div class="container-fluid header">
+            <div class="row h-50 topHeader">
+                <div class="col-3  d-flex justify-content-center align-items-center"><span>Envio gratis a partir
+                        de
+                        $1000</span></div>
+                <div class="col-3  d-flex justify-content-center align-items-center">
+                    <div class="d-flex align-items-start w-100"><span>15% de Descuento con Santander <img
+                                src="./assets/santander.png" /></span></div>
+
                 </div>
-            </a>
-            <h1>D E B O U T</h1>
-            <div class="actions">
-                <div class="action">
-                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M15.75 15.75L12.3855 12.3795L15.75 15.75ZM14.25 7.875C14.25 9.56576 13.5784 11.1873 12.3828 12.3828C11.1873 13.5784 9.56576 14.25 7.875 14.25C6.18425 14.25 4.56274 13.5784 3.36719 12.3828C2.17165 11.1873 1.5 9.56576 1.5 7.875C1.5 6.18425 2.17165 4.56274 3.36719 3.36719C4.56274 2.17165 6.18425 1.5 7.875 1.5C9.56576 1.5 11.1873 2.17165 12.3828 3.36719C13.5784 4.56274 14.25 6.18425 14.25 7.875V7.875Z"
-                            stroke="#333333" stroke-width="2" stroke-linecap="round" />
-                    </svg>
+                <div class="col-3 d-flex justify-content-center align-items-center"><span>100% moda
+                        uruguaya</span>
                 </div>
-                <div class="action">
-                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M11.6666 5.41667C11.6666 6.38913 11.2803 7.32176 10.5926 8.00939C9.90501 8.69703 8.97238 9.08333 7.99992 9.08333C7.02746 9.08333 6.09483 8.69703 5.40719 8.00939C4.71956 7.32176 4.33325 6.38913 4.33325 5.41667C4.33325 4.44421 4.71956 3.51158 5.40719 2.82394C6.09483 2.13631 7.02746 1.75 7.99992 1.75C8.97238 1.75 9.90501 2.13631 10.5926 2.82394C11.2803 3.51158 11.6666 4.44421 11.6666 5.41667V5.41667Z"
-                            stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M7.99992 11.8334C6.29811 11.8334 4.66601 12.5094 3.46265 13.7128C2.25929 14.9161 1.58325 16.5482 1.58325 18.25H14.4166C14.4166 16.5482 13.7405 14.9161 12.5372 13.7128C11.3338 12.5094 9.70173 11.8334 7.99992 11.8334V11.8334Z"
-                            stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                </div>
-                <div class="action">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M5.83342 2.5C3.53258 2.5 1.66675 4.34667 1.66675 6.625C1.66675 8.46417 2.39591 12.8292 9.57342 17.2417C9.70198 17.3199 9.84959 17.3613 10.0001 17.3613C10.1506 17.3613 10.2982 17.3199 10.4267 17.2417C17.6043 12.8292 18.3334 8.46417 18.3334 6.625C18.3334 4.34667 16.4676 2.5 14.1668 2.5C11.8659 2.5 10.0001 5 10.0001 5C10.0001 5 8.13425 2.5 5.83342 2.5Z"
-                            stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                </div>
-                <div class="action">
-                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M13.5001 4.50004H11.6667C11.6667 2.47421 10.0259 0.833374 8.00008 0.833374C5.97425 0.833374 4.33341 2.47421 4.33341 4.50004H2.50008C1.49175 4.50004 0.666748 5.32504 0.666748 6.33337V17.3334C0.666748 18.3417 1.49175 19.1667 2.50008 19.1667H13.5001C14.5084 19.1667 15.3334 18.3417 15.3334 17.3334V6.33337C15.3334 5.32504 14.5084 4.50004 13.5001 4.50004ZM8.00008 2.66671C9.00841 2.66671 9.83341 3.49171 9.83341 4.50004H6.16675C6.16675 3.49171 6.99175 2.66671 8.00008 2.66671ZM13.5001 17.3334H2.50008V6.33337H4.33341V8.16671C4.33341 8.67087 4.74591 9.08337 5.25008 9.08337C5.75425 9.08337 6.16675 8.67087 6.16675 8.16671V6.33337H9.83341V8.16671C9.83341 8.67087 10.2459 9.08337 10.7501 9.08337C11.2542 9.08337 11.6667 8.67087 11.6667 8.16671V6.33337H13.5001V17.3334Z"
-                            fill="#333333" />
-                    </svg>
+                <div class="col-3 d-flex justify-content-center align-items-center"><span> Ultimas ofertas</span>
                 </div>
             </div>
+            <div class="row h-50">
+                <div class="col-4  d-flex justify-content-center align-items-center">
+                    <a href="./pages/menu.html">
+                        <div class="actions">
+                            <svg width="26" height="24" viewBox="0 0 26 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.33325 11H17.3333V13H4.33325V11ZM4.33325 6H21.6666V8H4.33325V6ZM4.33325 18H12.1712V16H4.33325V18Z"
+                                    fill="#333333" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4  d-flex justify-content-center align-items-center">
+                    <h1>D E B O U T</h1>
+                </div>
+
+                <div class="actions col-4  d-flex justify-content-center align-items-center">
+                    <div class="action">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.75 15.75L12.3855 12.3795L15.75 15.75ZM14.25 7.875C14.25 9.56576 13.5784 11.1873 12.3828 12.3828C11.1873 13.5784 9.56576 14.25 7.875 14.25C6.18425 14.25 4.56274 13.5784 3.36719 12.3828C2.17165 11.1873 1.5 9.56576 1.5 7.875C1.5 6.18425 2.17165 4.56274 3.36719 3.36719C4.56274 2.17165 6.18425 1.5 7.875 1.5C9.56576 1.5 11.1873 2.17165 12.3828 3.36719C13.5784 4.56274 14.25 6.18425 14.25 7.875V7.875Z"
+                                stroke="#333333" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="action">
+                        <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.6666 5.41667C11.6666 6.38913 11.2803 7.32176 10.5926 8.00939C9.90501 8.69703 8.97238 9.08333 7.99992 9.08333C7.02746 9.08333 6.09483 8.69703 5.40719 8.00939C4.71956 7.32176 4.33325 6.38913 4.33325 5.41667C4.33325 4.44421 4.71956 3.51158 5.40719 2.82394C6.09483 2.13631 7.02746 1.75 7.99992 1.75C8.97238 1.75 9.90501 2.13631 10.5926 2.82394C11.2803 3.51158 11.6666 4.44421 11.6666 5.41667V5.41667Z"
+                                stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M7.99992 11.8334C6.29811 11.8334 4.66601 12.5094 3.46265 13.7128C2.25929 14.9161 1.58325 16.5482 1.58325 18.25H14.4166C14.4166 16.5482 13.7405 14.9161 12.5372 13.7128C11.3338 12.5094 9.70173 11.8334 7.99992 11.8334V11.8334Z"
+                                stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="action">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.83342 2.5C3.53258 2.5 1.66675 4.34667 1.66675 6.625C1.66675 8.46417 2.39591 12.8292 9.57342 17.2417C9.70198 17.3199 9.84959 17.3613 10.0001 17.3613C10.1506 17.3613 10.2982 17.3199 10.4267 17.2417C17.6043 12.8292 18.3334 8.46417 18.3334 6.625C18.3334 4.34667 16.4676 2.5 14.1668 2.5C11.8659 2.5 10.0001 5 10.0001 5C10.0001 5 8.13425 2.5 5.83342 2.5Z"
+                                stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="action">
+                        <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M13.5001 4.50004H11.6667C11.6667 2.47421 10.0259 0.833374 8.00008 0.833374C5.97425 0.833374 4.33341 2.47421 4.33341 4.50004H2.50008C1.49175 4.50004 0.666748 5.32504 0.666748 6.33337V17.3334C0.666748 18.3417 1.49175 19.1667 2.50008 19.1667H13.5001C14.5084 19.1667 15.3334 18.3417 15.3334 17.3334V6.33337C15.3334 5.32504 14.5084 4.50004 13.5001 4.50004ZM8.00008 2.66671C9.00841 2.66671 9.83341 3.49171 9.83341 4.50004H6.16675C6.16675 3.49171 6.99175 2.66671 8.00008 2.66671ZM13.5001 17.3334H2.50008V6.33337H4.33341V8.16671C4.33341 8.67087 4.74591 9.08337 5.25008 9.08337C5.75425 9.08337 6.16675 8.67087 6.16675 8.16671V6.33337H9.83341V8.16671C9.83341 8.67087 10.2459 9.08337 10.7501 9.08337C11.2542 9.08337 11.6667 8.67087 11.6667 8.16671V6.33337H13.5001V17.3334Z"
+                                fill="#333333" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </header>
     <main>

@@ -319,6 +319,11 @@ body {
         font-size: 12px;
     }
 
+    .topFooter {
+        height: auto;
+        padding: 10px 0;
+    }
+
     .socials {
         gap: 5px;
     }

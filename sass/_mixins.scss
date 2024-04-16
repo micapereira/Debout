@@ -1,0 +1,43 @@
+@mixin fontWeight($weight) {
+    @if ($weight=='bold') {
+        font-weight: 700;
+    }
+
+    @if ($weight=='semi-bold') {
+        font-weight: 600;
+    }
+
+    @if ($weight=='regular') {
+        font-weight: 400;
+    }
+
+    font-style:normal;
+}
+
+@mixin flex($justify: null, $align: null, $direction: null) {
+    display: flex;
+
+    @if ($justify) {
+        justify-content: $justify;
+    }
+
+    @if ($align) {
+        align-items: $align;
+    }
+
+    @if ($direction) {
+        flex-direction: $direction;
+    }
+
+}
+
+@mixin flexCenter($direction: null) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @if ($direction) {
+        flex-direction: $direction;
+    }
+
+}

@@ -1,9 +1,12 @@
-/* variables */
-/* --------- */
 html,
 body {
   height: 100%;
   margin: 0; }
+
+.fontRegularPopins, .topHeader, .navegations, .footer {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal; }
 
 .header {
   background-color: white;
@@ -25,17 +28,14 @@ body {
   border-bottom: 1px solid #F5F5F5; }
 
 .header#menu {
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   height: auto; }
 
 .topHeader {
   background-color: white;
   width: 100%;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   font-size: 12px;
   color: "#33333"; }
 
@@ -46,8 +46,8 @@ body {
 
 .actions {
   display: flex;
-  gap: 30px;
-  align-items: center; }
+  align-items: center;
+  gap: 30px; }
   .actions .action {
     display: flex;
     align-items: end; }
@@ -56,8 +56,8 @@ body {
   background-color: white;
   width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  flex-direction: column;
   flex: 5;
   padding: 70px 125px 55px 125px; }
 
@@ -68,7 +68,8 @@ body {
   width: fit-content; }
   .selectedItem h1 {
     font-size: 16px;
-    font-weight: 600; }
+    font-weight: 600;
+    font-style: normal; }
   .selectedItem h1::before {
     display: inline-block;
     content: "";
@@ -96,6 +97,7 @@ body {
   padding: 0; }
   .list p {
     font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     opacity: 0.8;
     margin: 0;
@@ -126,9 +128,6 @@ body {
 .navegations {
   width: 100%;
   padding: 35px 133px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   font-size: 12px;
   color: "#33333";
   display: flex;
@@ -143,8 +142,8 @@ body {
 .content {
   padding: 35px 155px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
   column-gap: 25px;
   row-gap: 43px; }
 
@@ -159,8 +158,8 @@ body {
 
 .breadcrumb {
   display: flex;
-  gap: 6px;
-  align-items: center; }
+  align-items: center;
+  gap: 6px; }
   .breadcrumb a {
     text-decoration: none;
     color: "#33333"; }
@@ -173,6 +172,7 @@ body {
   color: "#33333"; }
   .itemCard p {
     font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     opacity: 0.8;
     margin: 0; }
@@ -210,13 +210,13 @@ body {
 
 .sections {
   display: flex;
+  justify-content: center;
   align-items: start;
   gap: 100px;
   overflow-wrap: break-word;
   text-wrap: wrap;
   word-break: break-all;
   padding: 20px;
-  justify-content: center;
   flex-wrap: wrap;
   row-gap: 10px; }
 
@@ -235,9 +235,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   font-size: 12px; }
 
 @media (max-width: 480px) {

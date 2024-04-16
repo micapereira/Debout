@@ -238,10 +238,13 @@ body {
   font-size: 12px; }
 
 @media (max-width: 480px) {
+  .mainImg {
+    display: none; }
+  .menu {
+    padding: 20px 60px 25px 60px; }
   .sections {
     gap: 20px; }
   svg {
-    transform: scale(0.5);
     margin-left: -15px; }
   .item,
   .topFooter {
@@ -250,7 +253,7 @@ body {
     height: auto;
     padding: 10px 0; }
   .socials {
-    gap: 5px; }
+    gap: 25px; }
   #contact {
     display: none; }
   .footer {

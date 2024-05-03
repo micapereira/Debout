@@ -6,6 +6,12 @@ body {
     margin: 0;
 }
 
+.form {
+    @include flex($direction: column, $justify: start);
+    row-gap: 15px;
+
+}
+
 .fontRegularPopins {
     font-family: "Poppins", sans-serif;
     @include fontWeight('regular');
